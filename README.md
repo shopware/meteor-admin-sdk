@@ -6,6 +6,10 @@ The `meteor-admin-sdk` is a JavaScript library for all [Shopware 6](https://gith
 
 [See Documentation](https://shopware.github.io/meteor-admin-sdk/)
 
+## DEPRECATION WARNING
+
+> ⚠️ This repository is considered deprecated and will be archived in March 2024. For the new version of this tool please go to [meteor](https://github.com/shopware/meteor/tree/main/packages/component-library) our new monorepo. In there you find all Meteor related projects like the Meteor Icon Kit, Meteor Components, etc.
+
 ## Installation
 #### Using NPM:
 Install it to your `package.json`
