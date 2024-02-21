@@ -1,3 +1,4 @@
+import type { cmsRegisterBlock } from './ui/cms/index';
 import type { notificationDispatch } from './notification/index';
 import type { windowRedirect, windowReload, windowRouterPush } from './window/index';
 import type { contextLanguage, contextEnvironment, contextLocale, contextCurrency, contextShopwareVersion, contextAppInformation, contextModuleInformation, contextUserInformation } from './context/index';
@@ -50,6 +51,7 @@ export interface ShopwareMessageTypes {
   uiTabsAddTabItem: uiTabsAddTabItem,
   uiModulePaymentOverviewCard: uiModulePaymentOverviewCard,
   cmsRegisterElement: cmsRegisterElement,
+  cmsRegisterBlock: cmsRegisterBlock,
   locationUpdateHeight: locationUpdateHeight,
   locationUpdateUrl: locationUpdateUrl,
   menuItemAdd: menuItemAdd,
